@@ -1,0 +1,361 @@
+
+h3{
+  margin-top: 0;
+  font-size: 1.0625rem;
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: .5rem;
+  color: #32325d;
+}
+
+.h3 {
+  font-size: 1.0625rem;
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: .5rem;
+  color: #32325d;
+}
+
+.mt--7 {
+  margin-top: -6rem !important;
+}
+
+.pr-0 {
+  padding-right: 0 !important;
+}
+
+@media (min-width: 992px) {
+
+  .d-lg-inline-block {
+    display: inline-block !important;
+  }
+
+  .d-lg-block {
+    display: block !important;
+  }
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+@media (min-width: 768px) {
+
+  .d-md-flex {
+    display: flex !important;
+  }
+}
+
+/*navigation bar user picture and name*/
+.user {
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+}
+
+/*navigation bar username*/
+.username {
+  flex: 1 1;
+  margin-left: .5rem !important;
+  font-weight: 600;
+  font-size: .875rem;
+  margin-bottom: 0;
+}
+
+/*navigation bar user picture*/
+.avatar {
+  font-size: .875rem;
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #adb5bd;
+  align-items: center;
+  justify-content: center;
+}
+
+/*image inside the avatar circle*/
+.avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/*circle for circle*/
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+/*page's main content*/
+.main-content {
+  position: relative;
+}
+
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .main-content .container-fluid {
+    padding-right: 39px !important;
+    padding-left: 39px !important;
+  }
+}
+
+/*header including the nav bar*/
+.header {
+  position: relative;
+  padding-top: 3rem !important;
+  padding-bottom: 8rem !important;
+  align-items: center !important;
+  display: flex;
+}
+
+@media (min-width: 992px) {
+  .pt-lg-8 {
+    padding-top: 8rem !important;
+  }
+}
+
+
+
+header,
+main,
+nav,
+section {
+  display: block;
+}
+
+/*items in navbar*/
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ul ul {
+  margin-bottom: 0;
+}
+
+/*hyperlinks*/
+a {
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #233dd2;
+}
+
+a:not([href]):not([tabindex]) {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:not([href]):not([tabindex]):hover,
+a:not([href]):not([tabindex]):focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+/*navbar logo*/
+.logo
+{
+    margin-bottom: 0;				
+}
+
+/*navbar*/
+.nav {
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  display: block;
+  padding: .25rem .75rem;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  padding: 1rem 1rem;
+  flex-wrap: wrap;
+}
+
+.main-content .navbar-top {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  background-color: transparent;
+}
+
+.navbar>.container,
+.navbar>.container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+@media (max-width: 767.98px) {
+
+  .navbar-expand-md>.container,
+  .navbar-expand-md>.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+
+  .navbar-expand-md .navbar-nav {
+    flex-direction: row;
+  }
+
+  .navbar-expand-md .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .navbar-expand-md>.container,
+  .navbar-expand-md>.container-fluid {
+    flex-wrap: nowrap;
+  }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, .95);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: rgba(255, 255, 255, .65);
+}
+
+
+#navbar .navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-nav .dropdown-menu {
+  position: static;
+  float: none;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a:not(.btn) {
+    text-decoration: underline;
+  }
+
+  img {
+    page-break-inside: avoid;
+  }
+
+   page {
+    size: a3;
+  }
+
+  body {
+    min-width: 992px !important;
+  }
+
+  .container {
+    min-width: 992px !important;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  font-weight: 600;
+  font-size: .875rem;
+  padding: 8px 65px;
+  text-decoration: none;
+  text-align: right;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  color: rgba(255, 255, 255, .65);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}

@@ -1,0 +1,57 @@
+input[type=submit]
+{
+ width: 25%;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ background-color:#24a0ed;
+ color: white;
+ font-size: 16px;
+ margin-left: 35%;
+ margin-bottom: 13px;
+ border: none;
+ border-radius: 20px;
+ box-shadow:0px 5px 20px #24a0ed;
+}
+
+input[type="text"],input[type="email"],input[type="date"],input[type="password"],input[type="tel"]
+{
+ margin-top: 7px;
+ margin-right: 13px;
+ margin-left: 10px;
+ width: 80%;
+ padding: 6px;
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+}
+
+
+[6:01 PM] Senadeera H.A.M it20125998
+    
+
+textarea
+{​​​​​​​​
+margin-top: 10px;
+width: 80%;
+margin-left: 10px;
+display: inline-block;
+border: 1pxsolid#ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}​​​​​​​​
+ 
+form
+{​​​​​​​​
+width: 40%;
+background-color: rgb(255, 255, 255,0.9);
+margin: auto;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 0px0px20px#24a0ed;
+}​​​​​​​​
+ 
+label{​​​​​​​​
+margin-left: 10px;
+}​​​​​​​​
+
